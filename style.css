@@ -7,14 +7,14 @@ body{
 }
 
 button{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
     background-color: gray;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 button:hover{
@@ -30,17 +30,17 @@ button:active{
     background-color: lightcoral;
 }
 #calculator{
-    max-width: 500px;
+    max-width: 400px;
     overflow: hidden;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 14px;
 }
 #display{
     width: 100%;
     text-align: left;
     color: white;
     padding: 20px;
-    font-size: 4.5rem;
+    font-size: 4rem;
     border: none;
     background-color: gray;
 }
