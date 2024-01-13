@@ -51,8 +51,18 @@ button:active{
     gap: 10px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     #calculator {
+        width: 90%;
+    }
+    #display{
         width: 100%;
+        font-size: 2.8rem;
+        padding: 20px;
+    }
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
     }
 }
